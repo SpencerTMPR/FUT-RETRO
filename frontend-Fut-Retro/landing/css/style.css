@@ -1,0 +1,155 @@
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+.Logo{
+    display: flex;
+	justify-content: center;
+}
+
+#imagen1{
+    width: 365px;
+    height: 175px;
+}
+
+.div-img1{
+    display: flex;
+    justify-content: center;
+}
+
+.div-txt1{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    margin-left: 10px;
+    font-size: 15px;
+    color: #210070;
+}
+
+#img2{
+    width: 264px;
+    height: 278px;
+}
+
+.div-img2{
+    margin-left: 15px;
+}
+
+span{
+    font-size: 15px;
+    margin-top: 109813824786329874329847639847629874630px;
+    }
+
+.div-medio{
+    display: flex;
+}    
+
+h2{
+    font-size: 15px;
+    color: #210070;
+}
+
+.div-txtmedio{
+    margin-top: 70px;
+    margin-left: 10px;
+
+}
+
+.div-medio{
+    display: flex;
+    justify-content: end;
+}
+
+h3{
+    font-size: 15px;
+    color: #210070;
+    margin-left: 15px;
+}
+
+.botones{
+    display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+#btn-registrar{
+width: 193px;
+height: 41px;
+border-radius: 10px;
+background-color:#210070;
+color: white;
+}
+
+#btn-tienda{
+    width: 193px;
+    height: 41px;
+    border-radius: 10px;
+    background-color:#210070;
+    color: white;
+}
+#btn-spam{
+    width: 192px;
+    height: 41px;
+    color: #210070;
+    background-color: #71C3BC;
+    border-radius: 5px;
+    font-size: 17px;
+    border-color: #71C3BC;
+}
+
+#img3{
+    width: 312px;
+    height: 267px;
+}
+
+.div-logos{
+    
+}
+
+#barca{
+    width: 55px;
+    height: 59px;
+}
+ 
+#spurs{
+    width: 27px;
+    height: 55px;
+}
+
+#olimpia{
+    width: 55px;
+    height: 55px;
+}
+
+#inter{
+    width: 40px;
+    height: 55px;
+}
+
+#milan{
+    width: 35px;
+    height: 55px;
+}
+
+#madrid{
+    width: 40px;
+    height: 55px;
+}
+
+#united{
+    width: 50px;
+    height: 55px;
+}
+
+#bayern{
+    width: 35px;
+    height: 55px;
+}
+
+#juve{
+    width: 25px;
+    height: 55px;
+}

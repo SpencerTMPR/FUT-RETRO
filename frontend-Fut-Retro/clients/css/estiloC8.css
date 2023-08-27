@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    /* margin: 0; */
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-family: 'Roboto';
+    position: relative;
+}
+
+.contenedor
+{
+    width: 24rem;
+    height: 100%;  
+    position: relative;
+}
+
+.marco{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.logo:hover{
+    border:2px solid #fff;
+    box-shadow: 0 0 8px #fff;
+}
+
+img{
+    width: 130px;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    grid-column-gap: 95px;
+    grid-row-gap: 95px;
+}
+
+.containera img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    background: #505050;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    padding: 0.2rem;
+}
+
+.containera p{
+    font-size: 12px;
+}
+
+.containera i{
+    width: 70px;
+}
+
+.containerb img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    background: #505050;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    padding: 0.2rem;
+}
+
+.containerb p{
+    font-size: 12px;
+}
+
+.containerb i{
+    width: 70px;
+}
+
+.containerc img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    background: #505050;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    padding: 0.2rem;
+}
+
+.containerc p{
+    font-size: 12px;
+}
+
+.containerc i{
+    width: 70px;
+}
+
+.containerd img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    background: #505050;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    padding: 0.2rem;
+}
+
+.containerd p{
+    font-size: 12px;
+}
+
+.containerd i{
+    width: 70px;
+}
+
+.btn-3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    color: #fff;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    background: #ff7587;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 100%;
+    height: 35%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.btn-4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    color: #fff;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    background: #ff7587;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 100%;
+    height: 35%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+/* aca va los iconos a usar */
+header i{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 0px;
+    padding: 26.95px;
+}

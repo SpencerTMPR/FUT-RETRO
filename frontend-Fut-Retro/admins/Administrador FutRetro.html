@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <!--Boxicons-->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--Mi CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Admin Fut Retro</title>
+</head>
+
+<body>
+
+
+    <!--SIDEBAR-->
+    <section id="sidebar">
+        <a href="#" class="brand">
+            <i class='bx bxs-smile'></i>
+            <span class="text">AdminFutRetro</span>
+        </a>
+
+        <ul class="side-menu top">
+            <li class="active">
+                <a href="#">
+                    <i class='bx bxs-dashboard' ></i>
+                    <span class="text">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-shopping-bag-alt' ></i>
+                    <span class="text">Comercios</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-doughnut-chart' ></i>
+                    <span class="text">Estadísticas</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-message-dots' ></i>
+                    <span class="text">Mensajes</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-group' ></i>
+                    <span class="text">Equipo</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-cog' ></i>
+                    <span class="text">Configuración</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-car' ></i>
+                    <span class="text">Motoristas Repartidores</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="logout">
+                    <i class='bx bxs-log-out-circle' ></i>
+                    <span class="text">Cerrar Sesión </span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <!--SIDEBAR-->
+
+    <!--CONTENT-->
+    <section id="content">
+        <!--NAVBAR-->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <a href="#" class="nav-link">Categorias</a>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...">
+                    <button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+                </div>
+            </form>
+            <a href="#" class="notification">
+                <i class='bx bx-bell' ></i>
+                <span class="num">8</span>
+            </a>
+            <a href="#" class="profile">
+                <img src="imagenes/USUARIO 1.jpg" >
+            </a>
+        </nav>
+        <!--NAVBAR-->
+
+        <!--MAIN-->
+        <main>
+            <div class="head-title">
+                <div class="left">
+                    <h1>Dashboard</h1>
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="#">Dashboard</a>
+                        </li>
+                        <li><i class='bx bx-chevron-right'></i></li>
+                        <li>
+                            <a class="active" href="#">Home</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="btn-download">
+                    <i class='bx bxs-cloud-download' ></i>
+                    <span class="text">Download PDF</span>
+                </a>
+            </div>
+            <ul class="box-info">
+                <li>
+                    <i class='bx bxs-calendar-check'></i>
+                        <span class="text">
+                            <h3>20</h3>
+                            <p>Ordenes de camisetas</p>
+                        </span>
+                </li>
+                <li>
+                    <i class='bx bxs-group'></i>
+                        <span class="text">
+                            <h3>250</h3>
+                            <p>Visitas en la pagina</p>
+                        </span>
+                </li>
+                <li>
+                    <i class='bx bxs-dollar-circle'></i>
+                        <span class="text">
+                            <h3>Lps.24,500</h3>
+                            <p>Total Ventas</p>
+                        </span>
+                </li>
+            </ul>
+            <div class="table-data">
+                <div class="order">
+                    <div class="head">
+                        <h3>Ordenes  Recientes</h3>
+                        <i class='bx bx-search' ></i>
+                        <i class='bx bx-filter' ></i>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Usuario</th>
+                                <th>Fecha de la Orden</th>
+                                <th>Estado de Orden</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="imagenes/USUARIO 10.jpg">
+                                    <p>Marco Antonio</p>
+                                </td>
+                                <td>03-05-2023</td>
+                                <td><span class="status completed">Completado</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="imagenes/USUARIO 9.jpg">
+                                    <p>Camilo Sesto</p>
+                                </td>
+                                <td>04-05-2023</td>
+                                <td><span class="status pending">Pendiente</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="imagenes/USUARIO 2.jpg">
+                                    <p>Yao Ming</p>
+                                </td>
+                                <td>04-05-2023</td>
+                                <td><span class="status process">En proceso</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="imagenes/USUARIO 3.jpg">
+                                    <p>Maria Bodden</p>
+                                </td>
+                                <td>04-05-2023</td>
+                                <td><span class="status pending">Pendiente</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="imagenes/USUARIO 8.jpg">
+                                    <p>Roberto Baggio</p>
+                                </td>
+                                <td>03-05-2023</td>
+                                <td><span class="status completed">Completado</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="todo">
+                    <div class="head">
+                        <h3>Todos</h3>
+                        <i class='bx bx-plus' ></i>
+                        <i class='bx bx-filter' ></i>
+                    </div>
+                    <ul class="todo-list">
+                        <li class="completed">
+                            <p>Toda la lista</p>
+                            <i class='bx bx-dots-vertical-rounded' ></i>
+                        </li>
+                        <li class="completed">
+                            <p>Toda la lista</p>
+                            <i class='bx bx-dots-vertical-rounded' ></i>
+                        </li>
+                        <li class="not-completed">
+                            <p>Toda la lista</p>
+                            <i class='bx bx-dots-vertical-rounded' ></i>
+                        </li>
+                        <li class="completed">
+                            <p>Toda la lista</p>
+                            <i class='bx bx-dots-vertical-rounded' ></i>
+                        </li>
+                        <li class="not-completed">
+                            <p>Toda la lista</p>
+                            <i class='bx bx-dots-vertical-rounded' ></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <!--MAIN-->
+       
+    </section>
+    <!--CONTENT-->
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

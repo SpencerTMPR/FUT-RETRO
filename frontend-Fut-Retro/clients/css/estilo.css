@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-family: 'Roboto';
+    position: relative;
+}
+
+.contenedor
+{
+    width: 24rem;
+    height: 100%;  
+    position: relative;
+}
+
+.marco{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+
+    background: #fff;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.logo:hover{
+    border:2px solid #fff;
+    box-shadow: 0 0 8px #fff;
+}
+
+img{
+    width: 50px;
+}
+
+.formulario{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 7px;
+    text-align: center;
+    padding: 1rem;
+}
+
+#datos
+{
+    text-align: left;
+}
+
+h1{
+    color: #000000;
+    font-family: "Roboto";
+    margin: 1rem;
+}
+
+h2{
+    color: #000000;
+    font-family: "Roboto";
+    margin: 1rem;
+}
+
+h3{
+    color: #000000;
+    font-family: "Roboto";
+    margin: 1rem;
+}
+
+.input-data-text{
+    box-sizing: border-box;
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #888888;
+    background: #fff;
+    font-family: "Roboto";
+    font-size: 10pt;
+    outline: none;
+    color: #000000;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+::-webkit-input-placeholder{
+    padding: 10px 0px 0px 0px;
+    font-family: "Roboto";
+    color: rgba(255, 255, 255 .5 );
+    font-size: 11pt;
+}
+
+input[type="text"],[type="password"],[type="user"]
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+input[type="text"]{
+    background-size: 15px;
+}
+
+input[type="password"]{
+    background-size: 15px;
+}
+
+input[type="user"]{
+    background-size: 15px;
+}
+
+.btn{
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    background: #9000ff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 60%;
+    height: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+input[type="submit"]:hover{
+    box-shadow: 0 0 8px #9000ff;
+}
+
+a{
+    text-decoration: "Roboto";
+    font-size: "Roboto";
+    font-size: 12pt;
+}
+
+.terminos
+{
+    border: 10px solid #000000;
+    color: #000000;
+} 
+
+/* Swal */
+.swal2-title {
+    text-align: left !important;
+}
